@@ -1,0 +1,26 @@
+{
+  "name": "sss",
+  "version": "1.0.0",
+  "description": "SSS or Simple Slide System is a library written in JavaScript for making Presentations in HTML.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiOS-repo/sss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FiOS-repo/sss/issues"
+  },
+  "homepage": "https://github.com/FiOS-repo/sss#readme",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
