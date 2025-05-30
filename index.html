@@ -2,53 +2,72 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to SSS</title>
+
+  <!-- SSS Setup -->
   <script defer src="lib/sss.js"></script>
-  <link rel="stylesheet" href="lib/sss.css">
+  <link rel="stylesheet" href="lib/sss.css" />
+
+  <!-- Syntax Highlighting -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
+
+  <!-- SSS Config -->
   <script>
-    const SSS_CENTER_SLIDE_CONTENT = true
-    const SSS_TITLE = "Welcome to SSS"
-    const SSS_SLIDE_NUMBER = true
-    const SSS_PROGRESS_BAR = true
+    const SSS_CENTER_SLIDE_CONTENT = true;
+    const SSS_TITLE = "Welcome to SSS";
+    const SSS_SLIDE_NUMBER = true;
+    const SSS_PROGRESS_BAR = true;
   </script>
-  <link rel="stylesheet" href="themes/cattpuchinmocha.css">
-  <link rel="stylesheet" href="themes/user.css">
+
+  <!-- Themes -->
+  <link rel="stylesheet" href="themes/cattpuchinmocha.css" />
+  <link rel="stylesheet" href="themes/user.css" />
 </head>
 
 <body>
   <div id="progress"></div>
+
   <div class="slides">
     <section>
-      <h1>Slide 1</h1>
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
-      <h4>Heading 4</h4>
-      <h5>Heading 5</h5>
-      <h6>Heading 6</h6>
-
-      <p>I just love <strong>bold text</strong>.</p>
+      <h1>Welcome to SSS</h1>
+      <p>A simple and customizable HTML presentation system</p>
     </section>
+
     <section>
-      <h1>Slide 2</h1>
+      <h2>Features</h2>
+      <ul>
+        <li>Markdown-like slide creation with plain HTML</li>
+        <li>Custom themes</li>
+        <li>Syntax highlighting with <span>highlight.js</span></li>
+        <li>Progress bar and slide numbering</li>
+        <li>Configurable via global variables</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Code Highlighting</h2>
       <pre><code class="language-js">
-// Here is some js
-alert("Hello World")
+// JavaScript Demo
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+greet("World");
       </code></pre>
     </section>
+
     <section>
-      <h1>Slide 3</h1>
-      <p>Here is a Table of JS Presentation Framework Users and their Happines</p>
+      <h2>Comparison Table</h2>
+      <p>User happiness with popular JS presentation tools:</p>
       <div class="table-container">
         <table>
           <thead>
             <tr>
               <th>Framework</th>
-              <th>Happines</th>
+              <th>Happiness</th>
             </tr>
           </thead>
           <tbody>
@@ -57,29 +76,29 @@ alert("Hello World")
               <td>99%</td>
             </tr>
             <tr>
-              <td>Reveal.JS</td>
-              <td>80%</td>
+              <td>Reveal.js</td>
+              <td>85%</td>
             </tr>
             <tr>
               <td>Sli.dev</td>
-              <td>70%</td>
+              <td>78%</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p>I also like Reveal.JS but i don't like the code formarting. Also sli.dev is really nice, but I think it is not
-        so costumizable</p>
     </section>
+
     <section>
-      <h1>Slide 4</h1>
+      <h2>Quote</h2>
       <blockquote>
-        “Hello World"
-        <cite>— 1 Line of Javascript</cite>
+        "Computers are fast, programmers keep it slow"<br />
+        <cite>— Someone on Reddit</cite>
       </blockquote>
     </section>
+
     <section>
-      <h1>Slide 5</h1>
-      <p>With the <span>console</span> Class in JS you can write things out in the console</p>
+      <h2>Thank You</h2>
+      <p>Start editing <span>index.html</span> to make your own presentation!</p>
     </section>
   </div>
 </body>
