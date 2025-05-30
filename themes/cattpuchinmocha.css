@@ -1,0 +1,100 @@
+@import url("https://cdn.jsdelivr.net/npm/@catppuccin/highlightjs@1.0.1/css/catppuccin-mocha.css");
+
+body {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #f5e0dc;
+}
+
+h2 {
+    color: #f2cdcd;
+}
+
+h3 {
+    color: #f5c2e7;
+}
+
+h4 {
+    color: #eba0ac;
+}
+
+
+
+.table-container {
+    width: 100%;
+    max-width: 600px;
+    overflow-x: auto;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e2e;
+    color: #a6adc8;
+}
+
+thead {
+    background-color: #313244;
+}
+
+th,
+td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #313244;
+}
+
+th {
+    color: #cdd6f4;
+    font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid #f5c2e7;
+  background-color: #313244;   
+  color: #cdd6f4;              
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  color: #b4befe;                 
+  font-size: 0.875rem;
+  text-align: right;
+}
+
+span:not(code span) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #313244;
+  padding: 4px;
+  min-width: 1.5em;
+  height: 1.5em;
+  border-radius: 10px;
+  color: #cdd6f4;
+  font-weight: bold;
+}
+
+
+.square-letter:not(code span) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  height: 1em;    
+  min-width: 1em;
+  width: 1em;
+  padding: 0;  
+  border-radius: 0.3em;
+  font-weight: bold;
+}

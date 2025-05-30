@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,10 @@
   <script>
     const SSS_CENTER_SLIDE_CONTENT = true
   </script>
-  <link rel="stylesheet" href="themes/terminal.css">
+  <link rel="stylesheet" href="themes/cattpuchinmocha.css">
+  <link rel="stylesheet" href="themes/user.css">
 </head>
+
 <body>
   <div class="slides">
     <section>
@@ -36,34 +39,45 @@ alert("Hello World")
     <section>
       <h1>Slide 3</h1>
       <p>Here is a Table of JS Presentation Framework Users and their Happines</p>
-      <table>
-        <tr>
-          <td>Framework</td>
-          <td>Happines</td>
-        </tr>
-        <tr>
-          <td>SSS</td>
-          <td>10/10</td>
-        </tr>
-        <tr>
-          <td>Reveal.JS</td>
-          <td>8.5/10</td>
-        </tr>
-        <tr>
-          <td>Sli.dev</td>
-          <td>6/10</td>
-        </tr>
-      </table>
-      <p>I also like Reveal.JS but i don't like the code formarting. Also sli.dev is really nice, but I think it is not so costumizable</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Framework</th>
+              <th>Happines</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SSS</td>
+              <td>99%</td>
+            </tr>
+            <tr>
+              <td>Reveal.JS</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>Sli.dev</td>
+              <td>70%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>I also like Reveal.JS but i don't like the code formarting. Also sli.dev is really nice, but I think it is not
+        so costumizable</p>
     </section>
     <section>
       <h1>Slide 4</h1>
       <blockquote>
-        Hello World
-        <br>
-        <em>by <span>test</span></em>
+        “Hello World"
+        <cite>— 1 Line of Javascript</cite>
       </blockquote>
+    </section>
+    <section>
+      <h1>Slide 5</h1>
+      <p>With the <span>console</span> Class in JS you can write things out in the console</p>
     </section>
   </div>
 </body>
+
 </html>
