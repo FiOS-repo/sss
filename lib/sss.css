@@ -6,7 +6,8 @@
 }
 
 #slidenumber {
-    position: relative;
-    bottom: 10px;
-    left: 10px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    transform: translate(20px);
 }
