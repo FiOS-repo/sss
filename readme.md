@@ -4,7 +4,7 @@ SSS (Simple Slide System) is a lightweight JavaScript library for creating HTML-
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/FiOS-repo/sss.git
+git clone https://github.com/FiOS-repo/sss.git <Presentation_name>
 cd sss
 ```
 Start the development server (with live reload):
