@@ -31,6 +31,19 @@ Edit the slides directly in `index.html` using `<section>` elements inside the `
 </div>
 ```
 
+## Slide Segments (Fragments)
+To reveal content on a slide step-by-step, use the segment (fragment) feature. Add classes like fragment-1, fragment-2, etc., to elements within a slide. When navigating the presentation, each fragment will appear in sequence before advancing to the next slide.
+
+To enable this behavior, no additional configuration is required—just use the fragment-N class on elements inside any slide.
+```html
+<section>
+  <ul>
+    <li class="fragment-1">This will show first</li>
+    <li class="fragment-2">This will show secound</li>
+  </ul>
+</section>
+```
+
 ## Background Colors
 
 You can set the background color of a slide by adding a class to the `<section>` element that starts with `bg-` followed by a valid CSS color. For example:
